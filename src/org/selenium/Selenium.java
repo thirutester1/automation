@@ -40,13 +40,6 @@ public class Selenium {
 		r.keyRelease(KeyEvent.VK_CONTROL);
 		r.keyRelease(KeyEvent.VK_V);
 		
-
-		WebElement e2 = d.findElement(By.id("pass"));
-		e1.click();	
-		r.keyPress(KeyEvent.VK_CONTROL);
-		r.keyPress(KeyEvent.VK_V);
-		r.keyRelease(KeyEvent.VK_CONTROL);
-		r.keyRelease(KeyEvent.VK_V);
 		
 	}
 
